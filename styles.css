@@ -1,0 +1,725 @@
+/* Footer general styling */
+.footer {
+    background-color: #111; /* Dark background */
+    color: #eee; /* Light text color for contrast */
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer__col {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px 10px;
+  }
+  
+  .footer__col h4 {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .footer__links,
+  .footer__socials {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer__links li {
+    margin: 10px 0;
+  }
+  
+  .footer__links a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: color 0.3s;
+  }
+  
+  .footer__links a:hover {
+    color: #ff0099; /* Pink color for hover effect */
+  }
+  
+  .footer__col p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    color: #aaa;
+  }
+  
+  .btn {
+    background-color: #ff0099; /* Button background */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #e60082;
+  }
+  
+  .footer__socials a {
+    display: inline-block;
+    margin: 0 5px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer__socials img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .footer__socials a:hover img {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  
+  .footer__bar {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d0d0d;
+    color: #888;
+    font-size: 0.8em;
+    border-top: 1px solid #333;
+  }
+  /* Contact Section Styling */
+  .section1 {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .container1 {
+    display: flex;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .container1:hover {
+    animation: blink 0.5s ease-in-out; /* Blink effect on hover */
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    }
+  }
+  
+  /* Contact Info Styling */
+  .contactInfo1 {
+    flex: 1;
+    padding: 20px;
+    background-color: #ff0099;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
+  .contactInfo1 h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .contactInfo1 .info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .contactInfo1 .info li span img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .contactInfo1 .info li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contactInfo1 .sci {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .contactInfo1 .sci li img {
+    width: 24px;
+    transition: transform 0.3s;
+  }
+  
+  .contactInfo1 .sci li img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Contact Form Styling */
+  .contactForm1 {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  .contactForm1 h2 {
+    font-size: 1.5em;
+    color: #ff0099;
+    margin-bottom: 20px;
+  }
+  
+  .formBox1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .inputBox1 {
+    position: relative;
+  }
+  
+  .w50 {
+    width: 48%;
+  }
+  
+  .w100 {
+    width: 100%;
+  }
+  
+  .inputBox1 input,
+  .inputBox1 textarea {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1em;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background: none;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  .inputBox1 input:focus,
+  .inputBox1 textarea:focus {
+    border-color: #ff0099;
+    background-color: #f3f3f3; /* Changes background on focus */
+  }
+  
+  .inputBox1 span {
+    position: absolute;
+    left: 0;
+    padding: 10px 0;
+    font-size: 1em;
+    color: #aaa;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  
+  .inputBox1 input:focus + span,
+  .inputBox1 textarea:focus + span,
+  .inputBox1 input:valid + span,
+  .inputBox1 textarea:valid + span {
+    transform: translateY(-20px);
+    color: #ff0099;
+    font-size: 0.9em;
+  }
+  
+  .inputBox1 input[type="submit"] {
+    width: 120px;
+    background: #ff0099;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .inputBox1 input[type="submit"]:hover {
+    background: #e60082;
+  }
+  /* Gallery Section Styling */
+  #gallary {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section__subheader {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .container11 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  
+  .container11 .box11 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .container11 .box11 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.5s, box-shadow 0.5s;
+  }
+  
+  /* Blink and Glow Effect on Hover */
+  .container11 .box11:hover img {
+    animation: blink 0.5s alternate infinite; /* Blink effect */
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.8); /* Pinkish glow */
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /* Base Styles */
+  .section__container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 2rem;
+  }
+  
+  .service__container, .banner__container {
+      width: 80%;
+      max-width: 1200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 2rem 0;
+  }
+  
+  .service__content {
+      text-align: left;
+  }
+  
+  .service__list {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .service__list li {
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+      transform: translateX(0);
+      transition: transform 0.3s ease-in-out;
+  }
+  
+  .service__list li:hover {
+      transform: translateX(10px); /* Transpose on hover */
+  }
+  
+  .service__list li span i {
+      font-size: 1.5rem;
+      margin-right: 10px;
+      color: #ff6347;
+      animation: blink 1s infinite; /* Blink effect */
+  }
+  
+  .banner__container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+  }
+  
+  .banner__card {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #333;
+      animation: blink 1s infinite alternate;
+  }
+  
+  /* Blink Animation */
+  @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+  }
+  
+  /* Additional styling */
+  .section__subheader {
+      font-size: 1rem;
+      color: #888;
+      margin-bottom: 0.5rem;
+  }
+  
+  .section__header {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 1.5rem;
+  }
+  /* Base styles */
+  .section__container {
+      text-align: center;
+      padding: 2rem;
+  }
+  
+  .section__subheader {
+      font-size: 1rem;
+      color: #888;
+      margin-bottom: 0.5rem;
+  }
+  
+  .section__header {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 2rem;
+  }
+  
+  /* Room Card Grid Layout */
+  .room__grid {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  
+  .room__card {
+      width: 300px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+  }
+  
+  .room__card:hover {
+      transform: translateY(-10px);
+  }
+  
+  .room__card__image {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  
+  .room__card__image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  
+  .room__card__icons {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      display: flex;
+      gap: 0.5rem;
+  }
+  
+  .room__card__icons span {
+      background: #fff;
+      padding: 0.5rem;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      color: #ff5a5f;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.3s;
+  }
+  
+  .room__card__icons span:hover {
+      background: #ff5a5f;
+      color: #fff;
+  }
+  
+  /* Room Details */
+  .room__card__details {
+      padding: 1rem;
+      text-align: left;
+  }
+  
+  .room__card__details h4 {
+      font-size: 1.25rem;
+      color: #333;
+      margin-bottom: 0.5rem;
+  }
+  
+  .room__card__details p {
+      font-size: 0.9rem;
+      color: #666;
+      line-height: 1.4;
+      margin-bottom: 1rem;
+  }
+  
+  .room__card__details h5 {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #333;
+  }
+  
+  .room__card__details h5 span {
+      color: #ff5a5f;
+  }
+  
+  /* Button Styling */
+  .btn {
+      display: inline-block;
+      padding: 0.5rem 1.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #fff;
+      background: #ff5a5f;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+      transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+      background: #e04e50;
+      transform: scale(1.05);
+  }
+  /* Base container styling */
+  .section__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 3rem;
+      max-width: 1200px;
+      margin: auto;
+      gap: 2rem;
+  }
+  
+  /* Image styling */
+  .about__image img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Content styling */
+  .about__content {
+      flex: 1;
+      text-align: left;
+  }
+  
+  .section__subheader {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #FF5A5F;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+  }
+  
+  .section__header {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 1rem;
+  }
+  
+  .section__description {
+      font-size: 1rem;
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+  }
+  
+  .about__content h4 a {
+      color: #007BFF;
+      font-weight: bold;
+      text-decoration: none;
+  }
+  
+  .about__content h4 a:hover {
+      text-decoration: underline;
+  }
+  
+  /* Button styling */
+  .about__btn .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #fff;
+      background-color: #FF5A5F;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  .about__btn .btn:hover {
+      background-color: #e04e50;
+      transform: scale(1.05);
+  }
+  /* Resetting some default styles */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+  }
+  
+  /* Header styling */
+  .header {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background: url('path-to-your-image.jpg') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+  }
+  
+  .header nav {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .nav__bar .logo a {
+      color: aliceblue;
+      font-size: 1.5em;
+      text-decoration: none;
+  }
+  
+  .nav__menu__btn i {
+      color: aliceblue;
+      font-size: 1.5em;
+      cursor: pointer;
+  }
+  
+  .nav__links {
+      list-style: none;
+      display: flex;
+  }
+  
+  .nav__links li a {
+      color: aliceblue;
+      text-decoration: none;
+      margin: 0 10px;
+      padding: 10px;
+      font-size: 1em;
+      transition: color 0.3s;
+  }
+  
+  .nav__links li a:hover {
+      color: #ff4081; /* Hover color for links */
+  }
+  
+  .nav__btn {
+      background-color: #ff4081;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background-color 0.3s;
+  }
+  
+  .nav__btn:hover {
+      background-color: #ff1e6b;
+  }
+  
+  /* Header main text styling */
+  .header__container {
+      margin-top: 100px;
+  }
+  
+  .header__container p {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+      font-weight: 300;
+  }
+  
+  .header__container h1 {
+      font-size: 2.5em;
+      line-height: 1.2;
+  }
+  
+  .header__container h1 span {
+      color: #ff4081;
+  }
+  
+  /* Booking button styling */
+  .booking__container {
+      display: flex;
+      justify-content: center;
+      margin: 30px 0;
+  }
+  
+  .booking__form .btn {
+      background-color: #ff4081;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 30px;
+      border: none;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+  
+  .booking__form .btn:hover {
+      background-color: #ff1e6b;
+  }
+  
